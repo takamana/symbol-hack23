@@ -1,0 +1,26 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "run-dev": "nuxt build && nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.6.0",
+    "firebase-admin": "^11.5.0",
+    "firebase-functions": "^4.2.1",
+    "firebase-functions-test": "^3.0.0",
+    "nuxt": "^3.3.1"
+  },
+  "dependencies": {
+    "firebase": "^9.18.0",
+    "firebase-tools": "^11.25.1",
+    "volta": "^0.0.0"
+  },
+  "volta": {
+    "node": "16.19.1"
+  }
+}
